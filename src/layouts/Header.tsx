@@ -8,14 +8,14 @@ function Header() {
                     <img src="/asset/logo/logo.svg" alt="logo" />
                 </div>
                 <nav>
-                    <ol className="flex gap-4">
+                    <ul className="flex gap-4">
                         {HEADER_MENU.map((menu, i) => (
                             <li key={`menu-${menu}-${i}`} className="text-secondary">
                                 <span className="text-primary">{i + 1}.</span>
                                 {menu}
                             </li>
                         ))}
-                    </ol>
+                    </ul>
                 </nav>
             </div>
         </header>
