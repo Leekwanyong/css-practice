@@ -1,6 +1,6 @@
-import Card from "../components/common/Card/Card";
-import Title from "../components/common/Text/Title";
-import { WHAT_CARD_DATA } from "../constance/card";
+import Card from "../../components/common/Card/Card";
+import Title from "../../components/common/Text/Title";
+import { WHAT_CARD_DATA } from "../../constance/card";
 
 function WhatIDoSection() {
     return (

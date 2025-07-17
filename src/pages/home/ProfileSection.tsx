@@ -1,6 +1,6 @@
-import Button from "../components/common/Button/Button";
-import Description from "../components/common/Text/Description";
-import Title from "../components/common/Text/Title";
+import Button from "../../components/common/Button/Button";
+import Description from "../../components/common/Text/Description";
+import Title from "../../components/common/Text/Title";
 
 function ProfileSection() {
     return (
