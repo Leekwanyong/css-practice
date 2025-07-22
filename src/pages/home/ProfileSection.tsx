@@ -5,7 +5,7 @@ import Title from "../../components/common/Text/Title";
 function ProfileSection() {
     return (
         <article className="mt-[175px]">
-            <div className="flex items-center justify-evenly">
+            <div className="flex flex-col gap-4 lg:flex-row items-center justify-evenly">
                 <div className="aspect-square">
                     <img src="/asset/photo/PhotoFrame.svg" alt="avatar" />
                 </div>
