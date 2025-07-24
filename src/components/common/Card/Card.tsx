@@ -10,7 +10,7 @@ interface CardProps {
 
 function Card({ className = "", imgClass = "", isSubtitle = true, card }: CardProps) {
     return (
-        <ul className={`flex gap-4 justify-between ${className}`}>
+        <ul className={`flex flex-col px-4 lg:flex-row gap-4 justify-between ${className}`}>
             {card.map((card) => (
                 <CardList key={card.title} card={card} imgClass={imgClass} isSubtitle={isSubtitle} />
             ))}

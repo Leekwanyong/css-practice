@@ -5,7 +5,7 @@ import { WHAT_CARD_DATA } from "../../constance/card";
 function WhatIDoSection() {
     return (
         <article className="mt-44">
-            <div className="mb-20 ">
+            <div className="mb-20 px-4 lg:px-0 ">
                 <Title>What I do</Title>
             </div>
             <Card card={WHAT_CARD_DATA} isSubtitle={false} />
